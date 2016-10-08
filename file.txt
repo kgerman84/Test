@@ -1,0 +1,7 @@
+total 4784
+drwxrwxr-x 6 german german    4096 сер 27 14:38 0027 МИИ - АКХЗ-ТБ
+-rw-rw-r-- 1 german german 4747693 вер  5 15:56 BАТ - 2012 КХП BREF Iron-Steel_ua.pdf
+drwxrwxr-x 5 german german    4096 вер 26 22:49 IT
+-rw-rw-r-- 1 german german       0 сер 23 22:10 test_1.docx
+-rw-rw-r-- 1 german german  107730 чер  1  2014 Краткое руководство с чего начать.pdf
+drwxrwxr-x 3 german german    4096 сер 27 14:38 Приложения

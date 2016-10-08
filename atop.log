@@ -1,0 +1,57 @@
+
+
+ATOP - Mian-PC        2016/09/28  16:01:44        ------        5h41m18s elapsed
+PRC | sys    7m17s | user  20m08s | #proc    285 | #zombie    0 | #exit      ? |
+CPU | sys      45% | user      7% | irq       1% | idle    338% | wait      9% |
+cpu | sys      30% | user      1% | irq       0% | idle     68% | cpu002 w  1% |
+cpu | sys       8% | user      2% | irq       0% | idle     86% | cpu003 w  4% |
+cpu | sys       7% | user      2% | irq       0% | idle     90% | cpu001 w  1% |
+cpu | sys       1% | user      2% | irq       0% | idle     94% | cpu000 w  2% |
+CPL | avg1    0.11 | avg5    0.59 | avg15   0.82 | csw 21589044 | intr 16952e3 |
+MEM | tot     7.3G | free    4.7G | cache 930.9M | buff  275.2M | slab  175.7M |
+SWP | tot     0.0M | free    0.0M |              | vmcom   5.4G | vmlim   3.7G |
+DSK |          sda | busy      9% | read   49027 | write 112003 | avio 10.8 ms |
+NET | transport    | tcpi   26841 | tcpo   28145 | udpi    6103 | udpo    5216 |
+NET | network      | ipi    35976 | ipo    34407 | ipfrw      0 | deliv  33298 |
+NET | wlp2s0  ---- | pcki   33934 | pcko   32735 | si    5 Kbps | so    7 Kbps |
+NET | lo      ---- | pcki    1510 | pcko    1510 | si    0 Kbps | so    0 Kbps |
+                   *** system and process activity since boot ***
+  PID  SYSCPU  USRCPU  VGROW  RGROW RUID      THR ST EXC S  CPU CMD            
+ 3927  51.51s   8m25s   3.0G 199.2M german     60 N-   - S   3% dropbox        
+ 3858  68.33s   3m51s   1.2G 114.3M german      8 N-   - S   1% compiz         
+ 2847   2m15s   2m09s 335.4M 90620K root        1 N-   - S   1% Xorg           
+ 3794  14.40s  97.91s   1.1G 88572K german     10 N-   - S   1% nautilus       
+    7  39.76s   0.34s     0K     0K root        1 N-   - S   0% rcu_sched      
+ 3593   5.62s  32.29s 631.8M 38840K german      4 N-   - S   0% unity-panel-se 
+ 5395   7.42s  29.02s   3.2G 209.7M german     40 N-   - S   0% chromium-brows 
+ 6142  16.21s   6.86s 25872K  3920K german      1 N-   - S   0% atop           
+ 3520   1.10s  19.38s 354.8M 10084K german      4 N-   - S   0% gnome-keyring- 
+ 3461   4.86s  14.47s 44084K  4508K german      1 N-   - S   0% dbus-daemon    
+  378  16.96s   0.00s     0K     0K root        1 N-   - S   0% gfx            
+ 3504   3.04s  12.55s 359.3M  9928K german      3 N-   - S   0% ibus-daemon    
+ 5594   1.64s  13.65s   1.7G 169.7M german     11 N-   - S   0% chromium-brows 
+ 3695   1.98s  12.70s 386.7M 14616K german      3 N-   - S   0% indicator-appl 
+ 2811   0.84s  11.33s 553.7M 39564K root       11 N-   - S   0% dockerd        
+ 5972   2.50s   9.48s 920.6M 46892K german      4 N-   - S   0% gvim           
+ 3577   0.42s   9.12s 714.5M 47428K german      4 N-   - S   0% hud-service    
+  409   9.49s   0.00s     0K     0K root        1 N-   - S   0% sdma0          
+ 5515   1.20s   6.86s   1.6G 103.4M german      9 N-   - S   0% chromium-brows 
+ 2359   7.27s   0.00s     0K     0K root        1 N-   - S   0% jbd2/sda5-8    
+ 2657   3.69s   2.62s 453.7M 17904K root        3 N-   - S   0% NetworkManager 
+ 3501   2.16s   3.74s 41364K   320K german      1 N-   - S   0% upstart-dbus-b 
+ 3800   2.48s   3.34s   1.3G 91444K german      4 N-   - S   0% gnome-software 
+ 5468   1.44s   3.70s   1.1G 117.6M german      3 N-   - S   0% chromium-brows 
+ 3567   0.70s   3.64s 515.3M 27448K german      4 N-   - S   0% bamfdaemon     
+ 3659   0.72s   3.57s 205.3M  8112K german      3 N-   - S   0% ibus-engine-si 
+ 3545   0.43s   3.14s 469.8M 29632K german      4 N-   - S   0% ibus-ui-gtk3   
+   23   3.41s   0.01s     0K     0K root        1 N-   - S   0% ksoftirqd/3    
+ 2602   0.42s   2.99s 44296K  5032K messageb    1 N-   - S   0% dbus-daemon    
+ 3830   0.18s   3.02s 374.1M 10752K root        5 N-   - S   0% udisksd        
+   16   0.00s   3.16s     0K     0K root        1 N-   - S   0% watchdog/2     
+ 3810   0.50s   2.54s 579.4M 35204K german      4 N-   - S   0% nm-applet      
+ 6585   1.81s   0.73s 25872K  3928K german      1 N-   - S   0% atop           
+ 2312   0.00s   2.49s     0K     0K root        1 N-   - S   0% rtsx_usb_ms_1  
+ 6589   1.64s   0.79s 25876K  4044K german      1 N-   - S   0% atop           
+ 6595   1.67s   0.72s 25892K  4052K german      1 N-   - S   0% atop           
+ 6601   1.63s   0.68s 25888K  3924K german      1 N-   - S   0% atop           
+   

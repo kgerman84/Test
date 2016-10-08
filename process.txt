@@ -1,0 +1,383 @@
+
+
+ATOP - Mian-PC       2016/10/08  12:49:51       ------         13h47m55s elapsed
+PRC | sys   80.43s | user   5m48s | #proc    263 | #zombie    0 | #exit      ? |
+CPU | sys      12% | user     47% | irq       0% | idle    325% | wait     16% |
+cpu | sys       4% | user     18% | irq       0% | idle     77% | cpu002 w  1% |
+cpu | sys       4% | user     16% | irq       0% | idle     79% | cpu001 w  1% |
+cpu | sys       5% | user     16% | irq       0% | idle     78% | cpu003 w  1% |
+cpu | sys       2% | user      7% | irq       0% | idle     85% | cpu000 w  7% |
+CPL | avg1    0.22 | avg5    0.50 | avg15   0.52 | csw  2289531 | intr 1641355 |
+MEM | tot     7.3G | free    4.6G | cache 950.8M | buff   67.6M | slab   95.7M |
+SWP | tot     0.0M | free    0.0M |              | vmcom   4.8G | vmlim   3.7G |
+DSK |          sda | busy     33% | read   33936 | write   4815 | avio 6.56 ms |
+NET | transport    | tcpi    1971 | tcpo    1680 | udpi     758 | udpo     866 |
+NET | network      | ipi     4146 | ipo     2767 | ipfrw      0 | deliv   3175 |
+NET | wlp2s0  ---- | pcki    3757 | pcko    2039 | si    0 Kbps | so    0 Kbps |
+NET | lo      ---- | pcki     604 | pcko     604 | si    0 Kbps | so    0 Kbps |
+                   *** system and process activity since boot ***
+  PID  SYSCPU  USRCPU  VGROW  RGROW RUID      THR ST EXC S  MEM CMD            
+ 2743  13.77s   4m15s   4.4G 523.0M german     43 N-   - S   7% java           
+ 2344   1.18s   7.53s   3.0G 169.0M german     60 N-   - S   2% dropbox        
+ 2259   3.58s   5.18s   1.3G 129.1M german      4 N-   - S   2% gnome-software 
+ 2235   6.61s  23.51s   1.5G 122.7M german      8 N-   - S   2% compiz         
+ 3361   0.25s   3.40s 288.8M  99.1M root        2 N-   - S   1% aptd           
+ 1101  26.33s  27.24s 325.3M 73124K root        1 N-   - S   1% Xorg           
+ 2300   0.07s   0.12s 850.5M 60048K german      5 N-   - S   1% evolution-cale 
+ 2255   1.06s   4.12s 963.3M 57340K german      9 N-   - S   1% nautilus       
+ 2058   0.27s   1.90s 723.9M 56876K german      4 N-   - S   1% unity-panel-se 
+ 2046   0.11s   0.36s   1.1G 56284K german      5 N-   - S   1% unity-settings 
+ 2005   0.09s   0.72s 566.7M 53932K german      4 N-   - S   1% ibus-ui-gtk3   
+ 2364   0.03s   0.10s 875.6M 53460K german      7 N-   - S   1% evolution-cale 
+ 2034   0.17s   0.93s 610.0M 52244K german      4 N-   - S   1% bamfdaemon     
+ 2376   0.02s   0.13s   1.0G 50704K german      5 N-   - S   1% evolution-cale 
+ 2014   0.15s   0.58s 518.2M 45112K german      4 N-   - S   1% ibus-x11       
+ 1078   0.35s   1.07s 554.5M 42148K root       11 N-   - S   1% dockerd        
+ 2044   0.06s   0.56s 709.2M 41048K german      4 N-   - S   1% hud-service    
+ 2268   0.09s   1.09s 651.6M 37296K german      4 N-   - S   0% nm-applet      
+ 2343   0.02s   0.74s 620.4M 33540K root        7 N-   - S   0% fwupd          
+ 2490   0.23s   0.43s 481.8M 33528K german      4 N-   - S   0% notify-osd     
+ 1076   0.21s   0.13s 805.9M 33508K root       16 N-   - S   0% libvirtd       
+ 2164   0.04s   0.13s 637.4M 26728K german      4 N-   - S   0% indicator-keyb 
+ 2647   0.06s   0.15s 515.6M 26256K german      4 N-   - S   0% update-notifie 
+ 2166   0.02s   0.10s 538.3M 25672K german      4 N-   - S   0% indicator-prin 
+ 2258   0.01s   0.09s 564.7M 23444K german      4 N-   - S   0% unity-fallback 
+ 2210   0.00s   0.11s 617.3M 23292K german      4 N-   - S   0% evolution-sour 
+ 2612   0.07s   0.28s 571.6M 23104K german      4 N-   - S   0% unity-scope-lo 
+ 2274   0.00s   0.07s 422.8M 22220K german      4 N-   - S   0% polkit-gnome-a 
+ 2393   0.02s   0.06s 763.1M 21164K german      5 N-   - S   0% evolution-addr 
+ 2163   0.04s   0.12s   1.2G 20116K german      6 N-   - S   0% indicator-date 
+ 2374   0.00s   0.06s 689.4M 19768K german      5 N-   - S   0% evolution-addr 
+  952   3.95s   0.95s 453.8M 18240K root        3 N-   - S   0% NetworkManager 
+ 2446   0.02s   0.10s 503.5M 17800K german      7 N-   - S   0% zeitgeist-data 
+ 2602   0.04s   0.15s 640.2M 17484K german      4 N-   - S   0% unity-scope-ho 
+ 2464   0.03s   0.07s 314.0M 17380K german      3 N-   - S   0% zeitgeist-fts  
+ 2614   0.01s   0.08s 568.2M 15988K german      8 N-   - S   0% unity-files-da 
+ 2165   0.02s   0.04s 740.7M 14768K german      4 N-   - S   0% indicator-soun 
+ 2055   0.05s   0.12s 548.5M 14680K german      4 N-   - S   0% gnome-session- 
+  869   0.02s   0.02s 278.1M 13708K root        8 N-   - S   0% snapd          
+ 2223   0.02s   0.10s 314.6M 13396K colord      3 N-   - S   0% colord         
+  892   0.03s   0.06s 441.6M 12616K whoopsie    3 N-   - S   0% whoopsie       
+ 2172   0.10s   0.39s 386.7M 12580K german      3 N-   - S   0% indicator-appl 
+ 2162   0.03s   0.05s 361.3M 12084K german      4 N-   - S   0% indicator-powe 
+ 1148   0.11s   0.09s 404.9M 11596K root        9 N-   - S   0% docker-contain 
+ 2132   0.02s   0.07s 505.3M 11452K german      4 N-   - S   0% pulseaudio     
+ 2313   0.01s   0.00s 402.5M 11284K german      4 N-   - S   0% gvfs-afc-volum 
+ 1054   0.06s   0.16s 299.2M 11272K root        3 N-   - S   0% polkitd        
+ 2802   0.02s   0.05s 439.3M 11028K german      4 N-   - S   0% deja-dup-monit 
+ 3616   0.02s   0.02s 436.0M 10760K german      4 N-   - S   0% gvfsd-network  
+ 2296   0.02s   0.31s 374.2M 10708K root        5 N-   - S   0% udisksd        
+ 2123   0.07s   0.06s 347.5M 10364K root        3 N-   - S   0% upowerd        
+ 2287   0.01s   0.03s 297.8M 10316K german      3 N-   - S   0% gvfs-udisks2-v 
+ 2004   0.01s   0.01s 279.4M 10288K german      4 N-   - S   0% ibus-dconf     
+ 2161   0.00s   0.04s 349.4M 10268K german      4 N-   - S   0% indicator-blue 
+  949   0.01s   0.05s 268.4M  9392K root        3 N-   - S   0% cups-browsed   
+ 2457   0.02s   0.09s 413.7M  9344K german      3 N-   - S   0% zeitgeist-daem 
+ 1948   0.02s   0.05s 94920K  9088K german      1 N-   - S   0% window-stack-b 
+ 2354   0.02s   0.05s 363.5M  8916K german      3 N-   - S   0% gvfsd-trash    
+ 1965   0.26s   1.33s 358.4M  8872K german      3 N-   - S   0% ibus-daemon    
+ 2160   0.00s   0.03s 360.2M  8796K german      4 N-   - S   0% indicator-mess 
+  876   0.01s   0.02s 329.5M  8768K root        3 N-   - S   0% ModemManager   
+  862   0.05s   0.09s 292.8M  8696K root        3 N-   - S   0% accounts-daemo 
+ 2167   0.02s   0.03s 629.8M  8484K german      4 N-   - S   0% indicator-sess 
+ 2098   0.06s   0.12s 202.0M  8452K german      3 N-   - S   0% at-spi2-regist 
+ 1697   0.01s   0.00s 222.9M  8260K root        3 N-   - S   0% lightdm        
+ 1052   0.01s   0.02s 285.3M  8124K root        3 N-   - S   0% lightdm        
+ 2054   0.00s   0.02s 345.5M  8116K german      4 N-   - S   0% at-spi-bus-lau 
+ 2154   0.06s   0.25s 205.3M  8024K german      3 N-   - S   0% ibus-engine-si 
+ 3814   0.01s   0.00s 190.0M  7524K german      3 N-   - S   0% gvfsd-metadata 
+ 1978   0.01s   0.05s 209.4M  7272K german      4 N-   - S   0% gnome-keyring- 
+ 2002   0.00s   0.02s 410.1M  7264K german      6 N-   - S   0% gvfsd-fuse     
+ 3761   0.00s   0.02s 361.6M  7188K german      3 N-   - S   0% gvfsd-dnssd    
+ 4049   0.00s   0.01s 33508K  7172K german      1 N-   - S   0% python2.7      
+ 1120   0.07s   0.08s 44024K  6768K root        1 N-   - S   0% wpa_supplicant 
+ 1989   0.03s   0.09s 276.5M  6576K german      3 N-   - S   0% gvfsd          
+    1   1.30s   0.75s 181.3M  6244K root        1 N-   - S   0% systemd        
+ 2319   0.00s   0.01s 273.9M  6192K german      3 N-   - S   0% gvfs-gphoto2-v 
+ 2328   0.00s   0.02s 259.9M  5752K german      3 N-   - S   0% gvfs-goa-volum 
+ 1074   0.02s   0.04s 65516K  5492K root        1 N-   - S   0% sshd           
+  302   0.15s   0.93s 46232K  5436K root        1 N-   - S   0% systemd-udevd  
+ 2076   0.00s   0.04s 174.6M  5120K german      3 N-   - S   0% dconf-service  
+  916   0.26s   1.12s 44336K  5096K messageb    1 N-   - S   0% dbus-daemon    
+ 1765   0.02s   0.01s 45380K  5052K german      1 N-   - S   0% systemd        
+ 1856   0.15s   0.12s 55056K  4936K german      1 N-   - S   0% upstart        
+ 1006   0.09s   0.04s 17160K  4884K root        1 N-   - S   0% atop           
+  271   0.24s   0.19s 35480K  4804K root        1 N-   - S   0% systemd-journa 
+ 2333   0.01s   0.00s 261.8M  4696K german      3 N-   - S   0% gvfs-mtp-volum 
+  904   0.00s   0.01s 32064K  4560K root        1 N-   - S   0% bluetoothd     
+ 1251   0.02s   0.02s 61440K  4556K nobody      1 N-   - S   0% dnsmasq        
+ 1936   0.39s   1.03s 43856K  4272K german      1 N-   - S   0% dbus-daemon    
+ 2067   0.03s   0.03s 42900K  3952K german      1 N-   - S   0% dbus-daemon    
+ 3211   0.00s   0.00s 16128K  3668K root        1 N-   - S   0% dhclient       
+  864   0.07s   0.04s 44916K  3488K avahi       1 N-   - S   0% avahi-daemon   
+  909   0.00s   0.00s 37580K  3320K root        1 N-   - S   0% cron           
+  873   0.04s   0.06s 250.4M  3244K syslog      4 N-   - S   0% rsyslogd       
+ 2133   0.01s   0.02s 179.2M  3120K rtkit       3 N-   - S   0% rtkit-daemon   
+  901   0.06s   0.02s 28648K  3116K root        1 N-   - S   0% systemd-logind 
+ 2222   0.02s   0.01s 22504K  2668K german      1 N-   - S   0% syndaemon      
+ 4051   0.02s   0.00s 16864K  2656K german      1 N-   - R   0% atop           
+  800   0.01s   0.00s 100.0M  2600K systemd-    2 N-   - S   0% systemd-timesy 
+ 1773   0.00s   0.00s 49984K  2536K libvirt-    1 N-   - S   0% dnsmasq        
+ 1766   0.00s   0.00s 63728K  2368K german      1 N-   - S   0% (sd-pam)       
+ 1030   0.08s   0.04s 19568K  2236K root        1 N-   - S   0% irqbalance     
+ 1165   0.00s   0.00s 24512K  1816K root        1 N-   - S   0% agetty         
+ 2782   0.18s   0.02s  4672K  1772K german      1 N-   - S   0% fsnotifier64   
+ 2682   0.00s   0.00s  4508K  1688K german      1 N-   - S   0% pycharm.sh     
+  889   0.00s   0.00s 29880K  1556K root        1 N-   - S   0% cgmanager      
+ 2503   0.00s   0.00s 36728K  1520K uuidd       1 N-   - S   0% uuidd          
+  883   0.03s   0.01s  4400K  1368K root        1 N-   - S   0% acpid          
+ 2453   0.00s   0.00s  4508K   700K german      1 N-   - S   0% sh             
+ 4050   0.00s   0.00s  4508K   700K german      1 N-   - S   0% sh             
+ 1990   0.06s   0.00s 171.0M   608K german      1 N-   - S   0% gpg-agent      
+ 2026   0.00s   0.01s 49860K   420K german      1 N-   - S   0% upstart-file-b 
+ 1774   0.01s   0.00s 49956K   396K root        1 N-   - S   0% dnsmasq        
+  942   0.00s   0.00s 44788K   348K avahi       1 N-   - S   0% avahi-daemon   
+ 2008   0.11s   0.16s 41368K   332K german      1 N-   - S   0% upstart-dbus-b 
+ 2010   0.06s   0.13s 41368K   332K german      1 N-   - S   0% upstart-dbus-b 
+ 1925   0.01s   0.01s 41432K   284K german      1 N-   - S   0% upstart-udev-b 
+    2   0.01s   0.00s     0K     0K root        1 N-   - S   0% kthreadd       
+    3   0.00s   0.06s     0K     0K root        1 N-   - S   0% ksoftirqd/0    
+    4   1.42s   0.00s     0K     0K root        1 N-   - S   0% kworker/0:0    
+    5   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/0:0H   
+    7   2.88s   0.19s     0K     0K root        1 N-   - S   0% rcu_sched      
+    8   0.00s   0.00s     0K     0K root        1 N-   - S   0% rcu_bh         
+    9   0.14s   0.00s     0K     0K root        1 N-   - S   0% migration/0    
+   10   0.00s   0.01s     0K     0K root        1 N-   - S   0% watchdog/0     
+   11   0.00s   0.00s     0K     0K root        1 N-   - S   0% watchdog/1     
+   12   0.15s   0.00s     0K     0K root        1 N-   - S   0% migration/1    
+   13   0.03s   0.01s     0K     0K root        1 N-   - S   0% ksoftirqd/1    
+   15   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/1:0H   
+   16   0.00s   0.00s     0K     0K root        1 N-   - S   0% watchdog/2     
+   17   0.01s   0.00s     0K     0K root        1 N-   - S   0% migration/2    
+   18   0.00s   0.09s     0K     0K root        1 N-   - S   0% ksoftirqd/2    
+   20   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/2:0H   
+   21   0.00s   0.01s     0K     0K root        1 N-   - S   0% watchdog/3     
+   22   0.14s   0.00s     0K     0K root        1 N-   - S   0% migration/3    
+   23   0.13s   0.01s     0K     0K root        1 N-   - S   0% ksoftirqd/3    
+   25   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/3:0H   
+   26   0.00s   0.00s     0K     0K root        1 N-   - S   0% kdevtmpfs      
+   27   0.00s   0.00s     0K     0K root        1 N-   - S   0% netns          
+   28   0.00s   0.00s     0K     0K root        1 N-   - S   0% perf           
+   29   0.00s   0.00s     0K     0K root        1 N-   - S   0% khungtaskd     
+   30   0.00s   0.00s     0K     0K root        1 N-   - S   0% writeback      
+   31   0.00s   0.00s     0K     0K root        1 N-   - S   0% ksmd           
+   32   0.21s   0.00s     0K     0K root        1 N-   - S   0% khugepaged     
+   33   0.00s   0.00s     0K     0K root        1 N-   - S   0% crypto         
+   34   0.00s   0.00s     0K     0K root        1 N-   - S   0% kintegrityd    
+   35   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   36   0.00s   0.00s     0K     0K root        1 N-   - S   0% kblockd        
+   37   0.00s   0.00s     0K     0K root        1 N-   - S   0% ata_sff        
+   38   0.00s   0.00s     0K     0K root        1 N-   - S   0% md             
+   39   0.00s   0.00s     0K     0K root        1 N-   - S   0% devfreq_wq     
+   41   1.43s   0.00s     0K     0K root        1 N-   - S   0% kworker/1:1    
+   42   0.00s   0.00s     0K     0K root        1 N-   - S   0% irq/24-AMD-Vi  
+   45   0.00s   0.00s     0K     0K root        1 N-   - S   0% kswapd0        
+   46   0.00s   0.00s     0K     0K root        1 N-   - S   0% vmstat         
+   47   0.00s   0.00s     0K     0K root        1 N-   - S   0% fsnotify_mark  
+   48   0.00s   0.00s     0K     0K root        1 N-   - S   0% ecryptfs-kthre 
+   64   0.00s   0.00s     0K     0K root        1 N-   - S   0% kthrotld       
+   65   0.00s   0.00s     0K     0K root        1 N-   - S   0% irq/205-ACPI:E 
+   66   0.00s   0.00s     0K     0K root        1 N-   - S   0% irq/50-ACPI:Ev 
+   67   0.00s   0.00s     0K     0K root        1 N-   - S   0% acpi_thermal_p 
+   68   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   70   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   71   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   72   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   73   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   74   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   75   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   76   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   77   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   78   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   79   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   80   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   81   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   82   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   83   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   84   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   85   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   86   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   87   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   88   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   89   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   90   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   91   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   92   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+   97   0.00s   0.00s     0K     0K root        1 N-   - S   0% ipv6_addrconf  
+  110   0.00s   0.00s     0K     0K root        1 N-   - S   0% deferwq        
+  111   0.00s   0.00s     0K     0K root        1 N-   - S   0% charger_manage 
+  153   0.00s   0.00s     0K     0K root        1 N-   - S   0% scsi_eh_0      
+  154   0.00s   0.00s     0K     0K root        1 N-   - S   0% scsi_tmf_0     
+  155   0.00s   0.00s     0K     0K root        1 N-   - S   0% scsi_eh_1      
+  156   0.00s   0.00s     0K     0K root        1 N-   - S   0% scsi_tmf_1     
+  157   0.00s   0.00s     0K     0K root        1 N-   - S   0% kpsmoused      
+  161   0.00s   0.00s     0K     0K root        1 N-   - S   0% amd_iommu_v2   
+  162   0.00s   0.00s     0K     0K root        1 N-   - S   0% kfd_process_wq 
+  163   0.00s   0.00s     0K     0K root        1 N-   - S   0% ttm_swap       
+  164   0.00s   0.00s     0K     0K root        1 N-   - S   0% amdgpu-pagefli 
+  165   0.00s   0.00s     0K     0K root        1 N-   - S   0% amdgpu-pagefli 
+  166   0.00s   0.00s     0K     0K root        1 N-   - S   0% amdgpu-pagefli 
+  167   2.33s   0.00s     0K     0K root        1 N-   - S   0% gfx            
+  168   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.0     
+  169   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.1     
+  170   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.2     
+  171   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.3     
+  172   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.4     
+  173   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.5     
+  174   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.6     
+  175   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.7     
+  176   1.23s   0.00s     0K     0K root        1 N-   - S   0% sdma0          
+  177   0.00s   0.00s     0K     0K root        1 N-   - S   0% sdma1          
+  178   0.00s   0.00s     0K     0K root        1 N-   - S   0% uvd            
+  179   0.00s   0.00s     0K     0K root        1 N-   - S   0% vce0           
+  180   0.00s   0.00s     0K     0K root        1 N-   - S   0% vce1           
+  184   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+  186   0.00s   0.00s     0K     0K root        1 N-   - S   0% bioset         
+  190   0.02s   0.00s     0K     0K root        1 N-   - S   0% kworker/0:1H   
+  195   0.00s   0.00s     0K     0K root        1 N-   - S   0% gfx            
+  196   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.0     
+  197   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.1     
+  198   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.2     
+  199   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.3     
+  200   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.4     
+  201   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.5     
+  202   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.6     
+  203   0.00s   0.00s     0K     0K root        1 N-   - S   0% comp 1.0.7     
+  204   0.00s   0.00s     0K     0K root        1 N-   - S   0% sdma0          
+  205   0.00s   0.00s     0K     0K root        1 N-   - S   0% sdma1          
+  225   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/2:1H   
+  226   0.04s   0.00s     0K     0K root        1 N-   - S   0% kworker/1:1H   
+  228   0.02s   0.00s     0K     0K root        1 N-   - S   0% kworker/3:1H   
+  230   0.05s   0.00s     0K     0K root        1 N-   - S   0% jbd2/sda1-8    
+  231   0.00s   0.00s     0K     0K root        1 N-   - S   0% ext4-rsv-conve 
+  261   0.00s   0.00s     0K     0K root        1 N-   - S   0% kauditd        
+  387   0.00s   0.00s     0K     0K root        1 N-   - S   0% edac-poller    
+  523   0.00s   0.00s     0K     0K root        1 N-   - S   0% cfg80211       
+  559   0.00s   0.00s     0K     0K root        1 N-   - S   0% ath10k_wq      
+  560   0.00s   0.00s     0K     0K root        1 N-   - S   0% ath10k_aux_wq  
+  589   0.00s   0.00s     0K     0K root        1 N-   - S   0% kvm-irqfd-clea 
+  607   0.00s   0.00s     0K     0K root        1 N-   - S   0% kmemstick      
+  608   0.00s   0.21s     0K     0K root        1 N-   - S   0% rtsx_usb_ms_1  
+  637   0.16s   0.00s     0K     0K root        1 N-   - S   0% jbd2/sda5-8    
+  638   0.00s   0.00s     0K     0K root        1 N-   - S   0% ext4-rsv-conve 
+ 1216   0.00s   0.00s     0K     0K root        1 N-   - S   0% iprt-VBoxWQueu 
+ 1220   0.00s   0.00s     0K     0K root        1 N-   - S   0% iprt-VBoxTscTh 
+ 2270   0.00s   0.00s     0K     0K root        1 N-   - S   0% krfcommd       
+ 2932   0.00s   0.01s     0K     0K root        1 N-   - S   0% kworker/3:0    
+ 2953   3.12s   0.00s     0K     0K root        1 N-   - S   0% kworker/2:2    
+ 2977   0.58s   0.00s     0K     0K root        1 N-   - S   0% kworker/1:0    
+ 3022   1.35s   0.00s     0K     0K root        1 N-   - S   0% kworker/3:1    
+ 3059   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/2:3    
+ 3108   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/u8:45  
+ 3109   0.60s   0.00s     0K     0K root        1 N-   - S   0% kworker/u8:46  
+ 3119   0.66s   0.00s     0K     0K root        1 N-   - S   0% kworker/u8:56  
+ 3122   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/u9:0   
+ 3123   0.00s   0.00s     0K     0K root        1 N-   - S   0% hci0           
+ 3124   0.00s   0.00s     0K     0K root        1 N-   - S   0% hci0           
+ 3125   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/u9:1   
+ 3127   0.00s   0.71s     0K     0K root        1 N-   - S   0% kworker/0:3    
+ 3993   0.00s   0.22s     0K     0K root        1 N-   - S   0% kworker/2:0    
+ 3998   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/1:2    
+ 4009   0.00s   0.00s     0K     0K root        1 N-   - S   0% kworker/3:2    
+ 4038   0.02s   0.00s     0K     0K root        1 N-   - S   0% kworker/u8:0   
+
+
+ATOP - Mian-PC         2016/10/08  12:50:01         ------           10s elapsed
+PRC | sys    0.79s | user   1.92s | #proc    263 | #zombie    0 | #exit      ? |
+CPU | sys       6% | user     18% | irq       0% | idle    368% | wait      9% |
+cpu | sys       2% | user      5% | irq       0% | idle     93% | cpu000 w  0% |
+cpu | sys       2% | user      6% | irq       0% | idle     92% | cpu002 w  1% |
+cpu | sys       1% | user      4% | irq       0% | idle     88% | cpu001 w  7% |
+cpu | sys       2% | user      4% | irq       0% | idle     95% | cpu003 w  0% |
+CPL | avg1    0.27 | avg5    0.50 | avg15   0.52 | csw    28237 | intr   19188 |
+MEM | tot     7.3G | free    4.6G | cache 950.9M | buff   67.7M | slab   95.7M |
+SWP | tot     0.0M | free    0.0M |              | vmcom   4.8G | vmlim   3.7G |
+DSK |          sda | busy      8% | read       0 | write     60 | avio 12.9 ms |
+NET | transport    | tcpi      14 | tcpo      12 | udpi       0 | udpo       0 |
+NET | network      | ipi       21 | ipo       14 | ipfrw      0 | deliv     14 |
+NET | wlp2s0  ---- | pcki      30 | pcko      17 | si    8 Kbps | so    3 Kbps |
+
+  PID  SYSCPU  USRCPU  VGROW  RGROW RUID      THR ST EXC S  MEM CMD            
+ 2743   0.25s   0.99s     0K    96K german     41 --   - S   7% java           
+ 2344   0.03s   0.22s     0K     0K german     60 --   - S   2% dropbox        
+ 2235   0.06s   0.35s     8K     0K german      8 --   - S   2% compiz         
+ 1101   0.24s   0.22s   512K     0K root        1 --   - S   1% Xorg           
+ 2255   0.01s   0.00s     0K     0K german      9 --   - S   1% nautilus       
+ 2058   0.01s   0.04s     0K     0K german      4 --   - S   1% unity-panel-se 
+ 1078   0.01s   0.00s     0K     0K root       11 --   - S   1% dockerd        
+ 2268   0.00s   0.00s     0K     0K german      4 --   - S   0% nm-applet      
+ 2163   0.00s   0.00s     0K     0K german      6 --   - S   0% indicator-date 
+  952   0.00s   0.00s     0K     0K root        3 --   - S   0% NetworkManager 
+ 2172   0.00s   0.02s     0K     0K german      3 --   - S   0% indicator-appl 
+ 1120   0.00s   0.00s     0K     0K root        1 --   - S   0% wpa_supplicant 
+    1   0.00s   0.00s     0K     0K root        1 --   - S   0% systemd        
+  916   0.00s   0.01s     0K     0K messageb    1 --   - S   0% dbus-daemon    
+ 1936   0.01s   0.02s     0K     0K german      1 --   - S   0% dbus-daemon    
+ 4051   0.02s   0.01s  8732K  1220K german      1 --   - R   0% atop           
+ 2782   0.00s   0.00s     0K     0K german      1 --   - S   0% fsnotifier64   
+ 1990   0.01s   0.00s     0K     0K german      1 --   - S   0% gpg-agent      
+ 2008   0.00s   0.01s     0K     0K german      1 --   - S   0% upstart-dbus-b 
+    7   0.02s   0.00s     0K     0K root        1 --   - S   0% rcu_sched      
+   32   0.00s   0.00s     0K     0K root        1 --   - S   0% khugepaged     
+  167   0.03s   0.00s     0K     0K root        1 --   - S   0% gfx            
+  176   0.01s   0.00s     0K     0K root        1 --   - S   0% sdma0          
+  230   0.00s   0.00s     0K     0K root        1 --   - S   0% jbd2/sda1-8    
+  637   0.01s   0.00s     0K     0K root        1 --   - S   0% jbd2/sda5-8    
+ 2977   0.01s   0.00s     0K     0K root        1 --   - S   0% kworker/1:0    
+ 3022   0.02s   0.00s     0K     0K root        1 --   - S   0% kworker/3:1    
+ 3109   0.03s   0.00s     0K     0K root        1 --   - S   0% kworker/u8:46  
+ 3127   0.00s   0.01s     0K     0K root        1 --   - S   0% kworker/0:3    
+ 3993   0.00s   0.02s     0K     0K root        1 --   - S   0% kworker/2:0    
+ 4038   0.01s   0.00s     0K     0K root        1 --   - S   0% kworker/u8:0   
+
+
+ATOP - Mian-PC         2016/10/08  12:50:11         ------           10s elapsed
+PRC | sys    0.94s | user   2.90s | #proc    263 | #zombie    0 | #exit      ? |
+CPU | sys       8% | user     28% | irq       0% | idle    363% | wait      1% |
+cpu | sys       3% | user      8% | irq       0% | idle     88% | cpu000 w  0% |
+cpu | sys       2% | user      8% | irq       0% | idle     90% | cpu002 w  0% |
+cpu | sys       1% | user      7% | irq       0% | idle     91% | cpu001 w  1% |
+cpu | sys       2% | user      5% | irq       0% | idle     93% | cpu003 w  0% |
+CPL | avg1    0.23 | avg5    0.48 | avg15   0.51 | csw    32432 | intr   22473 |
+MEM | tot     7.3G | free    4.5G | cache 950.9M | buff   67.7M | slab   95.8M |
+SWP | tot     0.0M | free    0.0M |              | vmcom   4.8G | vmlim   3.7G |
+DSK |          sda | busy      1% | read       0 | write     48 | avio 1.83 ms |
+NET | transport    | tcpi       6 | tcpo       5 | udpi       1 | udpo       0 |
+NET | network      | ipi        8 | ipo        6 | ipfrw      0 | deliv      7 |
+NET | wlp2s0  ---- | pcki      18 | pcko       6 | si    3 Kbps | so    1 Kbps |
+
+  PID  SYSCPU  USRCPU  VGROW  RGROW RUID      THR ST EXC S  MEM CMD            
+ 2743   0.30s   1.76s   224K   196K german     46 --   - S   7% java           
+ 2344   0.00s   0.03s     0K     0K german     60 --   - S   2% dropbox        
+ 2235   0.11s   0.34s     0K     0K german      8 --   - S   2% compiz         
+ 1101   0.27s   0.51s   472K   -40K root        1 --   - S   1% Xorg           
+ 2255   0.01s   0.00s     0K     0K german      9 --   - S   1% nautilus       
+ 2058   0.00s   0.06s     0K     0K german      4 --   - S   1% unity-panel-se 
+ 2046   0.00s   0.00s     0K     0K german      5 --   - S   1% unity-settings 
+ 2005   0.00s   0.02s     0K     0K german      4 --   - S   1% ibus-ui-gtk3   
+ 2034   0.00s   0.01s     0K     0K german      4 --   - S   1% bamfdaemon     
+ 2014   0.00s   0.01s     0K     0K german      4 --   - S   1% ibus-x11       
+ 1078   0.00s   0.01s     0K     0K root       11 --   - S   1% dockerd        
+  952   0.00s   0.00s     0K     0K root        3 --   - S   0% NetworkManager 
+ 2172   0.00s   0.02s     0K     0K german      3 --   - S   0% indicator-appl 
+ 2162   0.00s   0.01s     0K     0K german      4 --   - S   0% indicator-powe 
+ 1965   0.00s   0.03s     0K     0K german      3 --   - S   0% ibus-daemon    
+ 1120   0.00s   0.00s     0K     0K root        1 --   - S   0% wpa_supplicant 
+ 1936   0.01s   0.03s     0K     0K german      1 --   - S   0% dbus-daemon    
+ 4051   0.01s   0.01s     0K    32K german      1 --   - R   0% atop           
+  909   0.00s   0.00s     0K     0K root        1 --   - S   0% cron           
+ 1990   0.00s   0.00s     0K     0K german      1 --   - S   0% gpg-agent      
+ 2008   0.01s   0.01s     0K     0K german      1 --   - S   0% upstart-dbus-b 
+ 2010   0.01s   0.00s     0K     0K german      1 --   - S   0% upstart-dbus-b 
+    7   0.04s   0.00s     0K     0K root        1 --   - S   0% rcu_sched      
+   13   0.01s   0.00s     0K     0K root        1 --   - S   0% ksoftirqd/1    
+   23   0.01s   0.00s     0K     0K root        1 --   - S   0% ksoftirqd/3    
+   32   0.00s   0.00s     0K     0K root        1 --   - S   0% khugepaged     
+  167   0.06s   0.00s     0K     0K root        1 --   - S   0% gfx            
+  176   0.03s   0.00s     0K     0K root        1 --   - S   0% sdma0          
+ 1220   0.00s   0.00s     0K     0K root        1 --   - S   0% iprt-VBoxTscTh 
+ 2977   0.01s   0.00s     0K     0K root        1 --   - S   0% kworker/1:0    
+ 3022   0.02s   0.00s     0K     0K root        1 --   - S   0% kworker/3:1    
+ 3109   0.03s   0.00s     0K     0K root        1 --   - S   0% kworker/u8:46  
+ 3127   0.00s   0.02s     0K     0K root        1 --   - S   0% kworker/0:3    
+ 3993   0.00s   0.02s     0K     0K root        1 --   - S   0% kworker/2:0    

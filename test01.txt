@@ -1,0 +1,7 @@
+total 44
+-rw-rw-r-- 1 german german 249 кві 18 16:01 example_4.py.gdoc
+-rw-rw-r-- 1 german german 491 вер 27 15:15 file.txt
+-rw-rw-r-- 1 german german 134 вер 28 12:58 test01.py
+-rw-rw-r-- 1 german german   0 вер 28 12:59 test01.txt
+-rw-rw-r-- 1 german german 319 вер 28 12:25 test.py
+-rw-rw-r-- 1 german german   1 вер 28 12:25 test.txt

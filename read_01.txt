@@ -1,0 +1,2 @@
+ 3794  14.40s  97.91s   1.1G 88572K german     10 N-   - S   1% nautilus       
+

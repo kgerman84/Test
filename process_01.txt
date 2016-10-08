@@ -1,0 +1,70 @@
+ 2743  13.77s   4m15s   4.4G 523.0M german     43 N-   - S   7% java           
+
+ 2344   1.18s   7.53s   3.0G 169.0M german     60 N-   - S   2% dropbox        
+
+ 2259   3.58s   5.18s   1.3G 129.1M german      4 N-   - S   2% gnome-software 
+
+ 2235   6.61s  23.51s   1.5G 122.7M german      8 N-   - S   2% compiz         
+
+ 3361   0.25s   3.40s 288.8M  99.1M root        2 N-   - S   1% aptd           
+
+ 1101  26.33s  27.24s 325.3M 73124K root        1 N-   - S   1% Xorg           
+
+ 2300   0.07s   0.12s 850.5M 60048K german      5 N-   - S   1% evolution-cale 
+
+ 2255   1.06s   4.12s 963.3M 57340K german      9 N-   - S   1% nautilus       
+
+ 2058   0.27s   1.90s 723.9M 56876K german      4 N-   - S   1% unity-panel-se 
+
+ 2046   0.11s   0.36s   1.1G 56284K german      5 N-   - S   1% unity-settings 
+
+ 2005   0.09s   0.72s 566.7M 53932K german      4 N-   - S   1% ibus-ui-gtk3   
+
+ 2364   0.03s   0.10s 875.6M 53460K german      7 N-   - S   1% evolution-cale 
+
+ 2034   0.17s   0.93s 610.0M 52244K german      4 N-   - S   1% bamfdaemon     
+
+ 2376   0.02s   0.13s   1.0G 50704K german      5 N-   - S   1% evolution-cale 
+
+ 2014   0.15s   0.58s 518.2M 45112K german      4 N-   - S   1% ibus-x11       
+
+ 1078   0.35s   1.07s 554.5M 42148K root       11 N-   - S   1% dockerd        
+
+ 2044   0.06s   0.56s 709.2M 41048K german      4 N-   - S   1% hud-service    
+
+ 2743   0.25s   0.99s     0K    96K german     41 --   - S   7% java           
+
+ 2344   0.03s   0.22s     0K     0K german     60 --   - S   2% dropbox        
+
+ 2235   0.06s   0.35s     8K     0K german      8 --   - S   2% compiz         
+
+ 1101   0.24s   0.22s   512K     0K root        1 --   - S   1% Xorg           
+
+ 2255   0.01s   0.00s     0K     0K german      9 --   - S   1% nautilus       
+
+ 2058   0.01s   0.04s     0K     0K german      4 --   - S   1% unity-panel-se 
+
+ 1078   0.01s   0.00s     0K     0K root       11 --   - S   1% dockerd        
+
+ 2743   0.30s   1.76s   224K   196K german     46 --   - S   7% java           
+
+ 2344   0.00s   0.03s     0K     0K german     60 --   - S   2% dropbox        
+
+ 2235   0.11s   0.34s     0K     0K german      8 --   - S   2% compiz         
+
+ 1101   0.27s   0.51s   472K   -40K root        1 --   - S   1% Xorg           
+
+ 2255   0.01s   0.00s     0K     0K german      9 --   - S   1% nautilus       
+
+ 2058   0.00s   0.06s     0K     0K german      4 --   - S   1% unity-panel-se 
+
+ 2046   0.00s   0.00s     0K     0K german      5 --   - S   1% unity-settings 
+
+ 2005   0.00s   0.02s     0K     0K german      4 --   - S   1% ibus-ui-gtk3   
+
+ 2034   0.00s   0.01s     0K     0K german      4 --   - S   1% bamfdaemon     
+
+ 2014   0.00s   0.01s     0K     0K german      4 --   - S   1% ibus-x11       
+
+ 1078   0.00s   0.01s     0K     0K root       11 --   - S   1% dockerd        
+

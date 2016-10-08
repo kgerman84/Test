@@ -1,0 +1,8 @@
+ 3927  51.51s   8m25s   3.0G 199.2M german     60 N-   - S   3% dropbox        
+
+ 3858  68.33s   3m51s   1.2G 114.3M german      8 N-   - S   1% compiz         
+
+ 2847   2m15s   2m09s 335.4M 90620K root        1 N-   - S   1% Xorg           
+
+ 3794  14.40s  97.91s   1.1G 88572K german     10 N-   - S   1% nautilus       
+
